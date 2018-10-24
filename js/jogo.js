@@ -4,12 +4,18 @@ let vidas = 1
 let tempo = 10
 var tempoMosquito = 1500
 var nivel = window.location.search.replace('?', '')
-if(nivel === 'normal'){
+if(nivel === 'facil'){
+    tempoMosquito = 2000
+    tempo = 10
+}else if(nivel === 'normal'){
     tempoMosquito = 1500
+    tempo = 15
 }else if(nivel === 'dificil'){
     tempoMosquito = 1000
+    tempo = 20
 }else if(nivel === 'chucknorris'){
     tempoMosquito = 750
+    tempo = 25
 }
 
 

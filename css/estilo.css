@@ -2,7 +2,7 @@ html{
     cursor: url(../imagens/mata_mosca.png) 30 30, auto;
 }
 body{
-    background: url(../imagens/bg.jpg) 50% no-repeat
+    background: url(../imagens/bg.jpg) no-repeat
 }
 
 .mosquito1{
